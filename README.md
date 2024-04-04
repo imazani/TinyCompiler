@@ -4,19 +4,17 @@ A compiler written in Java for a simplified dialect of the language BASIC that c
 
 Example Input:
 ```
-PRINT "How many fibonacci numbers do you want?"
-INPUT nums
-PRINT ""
+PRINT "A simple code example"
 
-LET a = 0
-LET b = 1
-WHILE nums > 0 REPEAT
+LET a = 11
+LET b = 10
+
+WHILE a > b REPEAT
     PRINT a
-    LET c = a + b
-    LET a = b
-    LET b = c
-    LET nums = nums - 1
+    PRINT b
+    LET a = a - 1
 ENDWHILE
+
 ```
 
 Example Output
